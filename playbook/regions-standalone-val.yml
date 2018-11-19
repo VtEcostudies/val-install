@@ -1,0 +1,7 @@
+- hosts: spatial.living-atlas.org
+  roles:
+    - { role: common, regions: regions }
+    - { role: java, regions: regions }
+    - webserver
+    - tomcat
+    - { role: regions, regions: regions }

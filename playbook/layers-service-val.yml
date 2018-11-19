@@ -1,0 +1,11 @@
+- hosts: living-atlas.org
+  roles:
+    - java
+    - common
+    - tomcat
+    - webserver
+    - postgresql
+    - layers-db
+    - geoserver    
+    - layers-service
+    - layer-ingestion

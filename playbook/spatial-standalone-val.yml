@@ -1,0 +1,11 @@
+- hosts: spatial.living-atlas.org
+  roles:
+    - common
+    - java
+    - tomcat
+    - webserver
+    - postgresql
+    - geoserver
+    - geonetwork
+    - spatial-service
+    - spatial-hub

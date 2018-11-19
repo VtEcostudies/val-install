@@ -1,0 +1,7 @@
+- hosts: living-atlas
+  roles:
+    - common
+    - java
+    - webserver
+    - tomcat
+    - bie-hub

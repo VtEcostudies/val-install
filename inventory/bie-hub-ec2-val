@@ -1,0 +1,44 @@
+[bie-hub]
+living-atlas
+
+[bie-hub:vars]
+data_dir=/data
+#is_vagrant=true
+
+bie_hub = ala-bie
+bie_hub_base_url = http://living-atlas.org
+bie_hub_context_path = /ala-bie
+bie_hub_hostname = living-atlas.org
+
+bie_index_base_url = http://living-atlas.org
+bie_index_context_path = /bie-index
+bie_index_hostname = living-atlas.org
+
+#JTL really?  bie-index and bie-service are the same?
+bie_service_query_context = /bie-index
+biocache_service_query_context = /biocache-service
+
+biocache_hub_url = http://living-atlas.org
+biocache_service_url = http://living-atlas.org/biocache-service
+
+profile_service_url = http://living-atlas.org/profiles-service
+collectory_url = http://living-atlas.org/collectory
+lists_url = http://living-atlas.org/specieslists
+alerts_url = https://alerts.ala.org.au
+sightings_url = https://sightings.ala.org.au/
+auth_base_url = https://auth.ala.org.au
+auth_cas_url = https://auth.ala.org.au/cas/
+
+default_map_lon = -73.9
+default_map_lat = 43.6
+default_map_zoom = 8
+
+image_thumbnail_url = http://living-atlas.org/image/proxyImageThumbnail?imageId=
+
+# Header and footer
+ala_base_url = http://living-atlas.org
+bie_base_url = http://living-atlas.org/ala-bie
+
+biocache_query_context = 
+skin_layout = main
+skin_orgNameLong = Vermont Atlas of Life

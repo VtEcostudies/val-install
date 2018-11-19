@@ -1,0 +1,11 @@
+- hosts: living-atlas.org
+  roles:
+    - common
+    - java
+    - postfix
+    - tomcat
+    - mysql
+    - webserver
+    - cas2
+    - userdetails
+    - apikey

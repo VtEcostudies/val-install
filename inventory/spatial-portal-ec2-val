@@ -1,0 +1,14 @@
+[spatial-portal]
+spatial.living-atlas.org
+
+[spatial-portal:vars]
+local_repo_dir=~/.val_repo
+data_dir=/data
+
+spatial_portal_hostname=spatial.living-atlas.org
+spatial_portal_url=http://spatial.living-atlas.org/spatial-portal
+spatial_portal_base_url=http://spatial.living-atlas.org
+spatial_portal_context_path=/spatial-portal
+
+auth_base_url=
+auth_cas_url=
