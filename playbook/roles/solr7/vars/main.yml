@@ -1,5 +1,0 @@
-artifactId: "solr"
-solr_version: "7.4.0"
-solr_mode: ""
-solr_zk_host: ""
-

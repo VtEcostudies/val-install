@@ -1,3 +1,0 @@
-# common handlers that various roles can call
-- name: restart monit
-  service: name=monit state=restarted

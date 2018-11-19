@@ -1,3 +1,0 @@
-# common variables across all roles
-
-groupIdPath: "{{groupId | default('au/org/ala')}}"

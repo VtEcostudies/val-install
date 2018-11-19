@@ -1,2 +1,0 @@
-- name: restart doi-service
-  service: name=doi-service state=restarted

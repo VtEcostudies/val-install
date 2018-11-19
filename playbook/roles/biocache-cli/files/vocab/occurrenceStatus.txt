@@ -1,6 +1,0 @@
-present	pres	presence	P
-absent	abs	absence	A
-common
-irregular
-rare
-doubtful

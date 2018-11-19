@@ -1,2 +1,0 @@
-- name: restart cas
-  service: name=cas state=restarted

@@ -1,2 +1,0 @@
-- name: restart apikey
-  service: name=apikey state=restarted
